@@ -1,0 +1,15 @@
+127.0.0.1 - - [03/Sep/2019:10:07:32 +0800] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [03/Sep/2019:10:07:32 +0800] "GET /Member/html/RegisteredMember.html HTTP/1.1" 200 1568
+0:0:0:0:0:0:0:1 - - [03/Sep/2019:10:07:32 +0800] "GET /Member/CSS/RegisteredMember.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [03/Sep/2019:10:07:32 +0800] "GET /Member/JS/RegisteredMember.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [03/Sep/2019:10:07:32 +0800] "GET /favicon.ico HTTP/1.1" 404 1085
+0:0:0:0:0:0:0:1 - - [03/Sep/2019:10:08:03 +0800] "GET /Member/html/RegisteredMember.html HTTP/1.1" 200 1567
+0:0:0:0:0:0:0:1 - - [03/Sep/2019:10:08:19 +0800] "GET /Member/html/RegisteredMember.html HTTP/1.1" 200 1564
+0:0:0:0:0:0:0:1 - - [03/Sep/2019:10:08:23 +0800] "GET /Member/html/RegisteredMember.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [03/Sep/2019:10:09:12 +0800] "GET /Member/html/RegisteredMember.html HTTP/1.1" 200 1565
+0:0:0:0:0:0:0:1 - - [03/Sep/2019:10:09:44 +0800] "GET /Member/html/RegisteredMember.html HTTP/1.1" 200 1557
+0:0:0:0:0:0:0:1 - - [03/Sep/2019:10:09:53 +0800] "GET /Member/html/RegisteredMember.html HTTP/1.1" 200 1548
+0:0:0:0:0:0:0:1 - - [03/Sep/2019:10:10:40 +0800] "GET /Member/html/RegisteredMember.html HTTP/1.1" 200 1571
+0:0:0:0:0:0:0:1 - - [03/Sep/2019:10:10:44 +0800] "GET /Member/Images/noway.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [03/Sep/2019:10:10:44 +0800] "GET /Member/Images/yes.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [03/Sep/2019:10:11:51 +0800] "GET /Member/html/RegisteredMember.html HTTP/1.1" 200 1560

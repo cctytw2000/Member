@@ -1,0 +1,11 @@
+127.0.0.1 - - [02/Sep/2019:12:58:41 +0800] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [02/Sep/2019:12:58:42 +0800] "GET /Member/home.jsp HTTP/1.1" 200 646
+0:0:0:0:0:0:0:1 - - [02/Sep/2019:12:58:42 +0800] "GET /Member/CSS/main.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [02/Sep/2019:12:58:42 +0800] "GET /favicon.ico HTTP/1.1" 404 1085
+0:0:0:0:0:0:0:1 - - [02/Sep/2019:12:58:45 +0800] "GET /Member/html/RegisteredMember.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [02/Sep/2019:12:58:45 +0800] "GET /Member/CSS/RegisteredMember.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [02/Sep/2019:12:58:45 +0800] "GET /Member/JS/RegisteredMember.js HTTP/1.1" 200 4346
+0:0:0:0:0:0:0:1 - - [02/Sep/2019:12:58:55 +0800] "GET /Member/Images/yes.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [02/Sep/2019:12:58:55 +0800] "GET /Member/Images/noway.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [02/Sep/2019:12:59:29 +0800] "POST /Member/RegisteredMember.do HTTP/1.1" 200 141
+0:0:0:0:0:0:0:1 - - [02/Sep/2019:12:59:33 +0800] "GET /Member/home.jsp HTTP/1.1" 200 646

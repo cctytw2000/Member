@@ -1,0 +1,52 @@
+package com.eeit109team6.servletmember;
+
+import java.io.IOException;
+import java.sql.SQLException;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.eeit109team6.memberDao.IMemberDao;
+import com.eeit109team6.memberDao.Member;
+import com.eeit109team6.memberDao.MemberDaoFactoery;
+
+
+@WebServlet("/forgetPWDInsertNewPassowrd")
+public class forgetPWDInsertNewPassowrd extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		String account = request.getParameter("account");
+		String token = request.getParameter("token");
+		String newpassword = request.getParameter("newpassword");
+		String oldpassword = request.getParameter("oldpassword");
+
+//		System.out.println("account="+account);
+//		System.out.println("token="+token);
+//		System.out.println("newpassword="+newpassword);
+//		System.out.println("oldpassword="+oldpassword);
+		
+		Member mem=new Member();
+		mem.setAccount(account);
+		mem.setToken(token);
+		mem.setPassword(newpassword);
+		try {
+			IMemberDao MEMDao = MemberDaoFactoery.createMember();
+			MEMDao.changePwd(m, conn, oldpassword);
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+	}
+
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+
+		doGet(request, response);
+	}
+
+}

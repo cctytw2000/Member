@@ -1,0 +1,45 @@
+package com.eeit109team6.servletmember;
+
+import java.io.IOException;
+import java.sql.SQLException;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.eeit109team6.memberDao.IMemberDao;
+import com.eeit109team6.memberDao.Member;
+import com.eeit109team6.memberDao.MemberDaoFactoery;
+
+/**
+ * Servlet implementation class CheckMember
+ */
+@WebServlet("/CheckMember")
+public class CheckMember extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+
+
+
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		int mber_id =Integer.parseInt(request.getParameter("id"));
+		String token =request.getParameter("token");
+		System.out.println("member_id="+mber_id);
+		System.out.println("token="+token);
+		Member mem = new Member();
+		mem.setMember_id(mber_id);
+		mem.setToken(token);
+		try {
+			IMemberDao MemDao = MemberDaoFactoery.createMember();
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+
+
+
+}

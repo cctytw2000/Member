@@ -1,0 +1,20 @@
+package com.eeit109team6.memberDao;
+
+import java.io.IOException;
+import java.sql.SQLException;
+
+public class MemberDaoFactoery {
+	public static IMemberDao createMember() throws IOException {
+		try {
+			IMemberDao MEMDao;
+			MEMDao = new MemberDaoJdbcImpl();
+			return MEMDao;
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}finally {
+			return null;
+		}
+
+	}
+}

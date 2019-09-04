@@ -1,0 +1,35 @@
+
+8月 29, 2019 07:16:39.57 NEW SESSION
+8月 29, 2019 07:16:39.57 [10212:1808:0829/071639.573:ERROR:browser_process_sub_thread.cc(203)] Waited 5 ms for network service
+8月 29, 2019 07:21:08.14 [3220:2628:0829/072108.142:ERROR:browser_process_sub_thread.cc(203)] Waited 6 ms for network service
+8月 29, 2019 07:29:02.65 [4112:8232:0829/072902.653:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+8月 29, 2019 07:29:23.32 [4112:8232:0829/072923.322:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+8月 29, 2019 07:30:16.89 [4112:8232:0829/073016.891:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+8月 29, 2019 07:31:48.76 [4112:8232:0829/073148.760:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+8月 29, 2019 07:35:23.88 [4112:8232:0829/073523.887:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+8月 29, 2019 07:42:24.36 [4112:8232:0829/074224.366:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+8月 29, 2019 08:00:30.95 [4112:8232:0829/080030.949:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+8月 29, 2019 08:00:57.80 [4112:8232:0829/080057.799:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+8月 29, 2019 08:01:47.78 [4112:8232:0829/080147.786:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+8月 29, 2019 08:03:33.88 [4112:8232:0829/080333.882:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+8月 29, 2019 08:06:48.98 [4112:8232:0829/080648.981:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+8月 29, 2019 08:12:54.54 [4112:3748:0829/081254.545:ERROR:gcm_channel_status_request.cc(146)] GCM channel request failed.
+8月 29, 2019 08:13:22.01 [4112:3748:0829/081322.018:ERROR:gcm_channel_status_request.cc(146)] GCM channel request failed.
+8月 29, 2019 08:13:33.22 [4112:8232:0829/081333.224:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+8月 29, 2019 08:14:09.23 [4112:3748:0829/081409.236:ERROR:gcm_channel_status_request.cc(146)] GCM channel request failed.
+8月 29, 2019 08:15:46.16 [4112:3748:0829/081546.160:ERROR:gcm_channel_status_request.cc(146)] GCM channel request failed.
+8月 29, 2019 08:19:18.93 [4112:3748:0829/081918.936:ERROR:gcm_channel_status_request.cc(146)] GCM channel request failed.
+8月 29, 2019 08:21:36.89 [4112:8232:0829/082136.891:ERROR:browser_process_sub_thread.cc(203)] Waited 6 ms for network service
+
+8月 29, 2019 16:25:26.84 NEW SESSION
+8月 29, 2019 16:25:26.84 [11184:8264:0829/162526.849:ERROR:browser_process_sub_thread.cc(203)] Waited 10 ms for network service
+
+8月 30, 2019 07:06:16.88 NEW SESSION
+8月 30, 2019 07:06:16.88 [2236:7860:0830/070616.880:ERROR:browser_process_sub_thread.cc(203)] Waited 9 ms for network service
+8月 30, 2019 09:48:34.72 [15272:5164:0830/094834.722:ERROR:browser_process_sub_thread.cc(203)] Waited 17 ms for network service
+8月 30, 2019 10:16:11.03 [7172:3792:0830/101611.032:ERROR:browser_process_sub_thread.cc(203)] Waited 6 ms for network service
+8月 30, 2019 10:31:39.70 [9732:12772:0830/103139.704:ERROR:browser_process_sub_thread.cc(203)] Waited 14 ms for network service
+8月 30, 2019 10:33:08.20 [4392:15184:0830/103308.208:ERROR:browser_process_sub_thread.cc(203)] Waited 9 ms for network service
+8月 30, 2019 11:26:06.07 [4420:1924:0830/112606.079:ERROR:socket_stream.cc(219)] Closing stream with result -2
+8月 30, 2019 12:02:10.67 [4420:1924:0830/120210.678:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+8月 30, 2019 12:53:48.86 [4420:1924:0830/125348.866:ERROR:browser_process_sub_thread.cc(203)] Waited 8 ms for network service

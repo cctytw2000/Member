@@ -1,0 +1,69 @@
+package com.eeit109team6.servletmember;
+
+import java.io.IOException;
+import java.sql.SQLException;
+import java.util.Calendar;
+import java.util.Date;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.eeit109team6.memberDao.IMemberDao;
+import com.eeit109team6.memberDao.Member;
+import com.eeit109team6.memberDao.MemberDaoFactoery;
+
+@WebServlet("/RegisteredMember")
+public class RegisteredMember extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		request.setCharacterEncoding("UTF-8");
+		response.setContentType("text/html;charset=UTF-8");
+		
+		String account = request.getParameter("account");
+		String password = request.getParameter("password");
+		String username = request.getParameter("username");
+		String idnumber = request.getParameter("idnumber");
+		String sex = request.getParameter("sex");
+		String birth = request.getParameter("birth");
+//		Date registeredDate = new Date();
+		Calendar rightNow = Calendar.getInstance();
+		int isactive = 0;
+		
+		
+		Member mem = new Member();
+		mem.setAccount(account);
+		mem.setPassword(password);
+		mem.setUsername(username);
+		mem.setIdnumber(idnumber);
+		mem.setSex(sex);
+		mem.setBirth(birth);
+		String registeredtime = rightNow.get(Calendar.YEAR)+"-"+(rightNow.get(Calendar.MONTH)+1)+"-"+
+		rightNow.get(Calendar.DATE)+" "+rightNow.get(Calendar.HOUR)+":"+rightNow.get(Calendar.MINUTE)+":"+rightNow.get(Calendar.SECOND);
+		mem.setRegisteredtime(registeredtime);
+		mem.setIsactive(isactive);
+		try {
+			IMemberDao MemDao = MemberDaoFactoery.createMember();
+			MemDao.createConn();
+			MemDao.add(mem);
+			MemDao.closeConn();
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+//		System.out.println(account);
+//		System.out.println(password);
+//		System.out.println(username);
+//		System.out.println(idnumber);
+//		System.out.println(sex);
+//		System.out.println(birth);
+//		System.out.println(registeredtime);
+//		System.out.println(isactive);
+	}
+
+}

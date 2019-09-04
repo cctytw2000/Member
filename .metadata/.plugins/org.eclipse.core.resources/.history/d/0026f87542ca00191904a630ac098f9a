@@ -1,0 +1,35 @@
+  fieldset {
+            width: 90%;
+            border: 2px solid lightgreen;
+            border-radius: 20px;
+            margin: 10px auto;
+        }
+
+        .div1 {
+            border-bottom: 2px solid blue;
+            padding-bottom: 20px;
+            margin: 20px;
+            width: 450px;
+        }
+
+        .sub1 {
+            width: 450px;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .label1 {
+            width: 100px;
+            float: left;
+            text-align: right
+        }
+
+        form {
+            width: 100%;
+            /* margin: 15px auto; */
+        }
+
+        h6 {
+
+            text-align: center
+        }

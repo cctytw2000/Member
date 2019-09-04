@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script src="../JS/RegisteredMember.js"></script>
+<link rel="stylesheet" href="../CSS/RegisteredMember.css">
+</head>
+<body>
+
+
+<form action="../RegisteredMember.do" method="post">
+
+
+
+帳號:<input type="text" id="account" name="account">
+
+
+密碼:<input type="password" id="password" name="password"><span id="msg_password"></span>
+
+
+
+姓名:<input type="text" id="username" name="username"><span id="msg"></span>
+
+
+
+身分證字號:<input type="text" name="idnumber">
+
+
+性別:<input type="checkbox" name="sex" value="male">男<input type="checkbox" name="sex" value="female">女
+
+
+<label class='label1'>生日:</label><input type="date" name="birth">
+
+
+<input type="submit" value="Create">
+
+
+</form>
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+package com.eeit109team6.servletmember;
+
+import java.io.IOException;
+import java.util.Date;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+@WebServlet("/RegisteredMember")
+public class RegisteredMember extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		request.setCharacterEncoding("UTF-8");
+		response.setContentType("text/html;charset=UTF-8");
+
+		String account = request.getParameter("account");
+		String password = request.getParameter("password");
+		String username = request.getParameter("username");
+		String idnumber = request.getParameter("idnumber");
+		String sex = request.getParameter("sex");
+		String birth = request.getParameter("birth");
+		Date registeredDate = new Date();
+		int isactive = 0;
+
+	}
+
+}
